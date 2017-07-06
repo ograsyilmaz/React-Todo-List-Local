@@ -4,7 +4,7 @@ import './comp.style.scss';
 class Task extends Component {
     render() {
         return (
-            <li className="task" onClick={this.props.onClickHandler} >
+            <li className="task" onClick={this.props.onClickHandler} title="Silmek için üzerine Tıklayın" >
                 {this.props.taskName}
 
             </li>

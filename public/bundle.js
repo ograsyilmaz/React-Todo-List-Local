@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b83f79220faf21c6477c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1f9bd0da4d00efc987c3"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -23805,7 +23805,7 @@ var TaskCreactor = function (_Component) {
                 _react2.default.createElement(
                     'label',
                     null,
-                    'New Task:'
+                    'Yeni G\xF6rev:'
                 ),
                 _react2.default.createElement('input', { type: 'text', onKeyUp: this.props.onKeyUpHandler, placeholder: 'G\xF6rev Yaz\u0131n Enter Bas\u0131n' })
             );
@@ -23972,7 +23972,7 @@ var Task = function (_Component) {
         value: function render() {
             return _react2.default.createElement(
                 'li',
-                { className: 'task', onClick: this.props.onClickHandler },
+                { className: 'task', onClick: this.props.onClickHandler, title: 'Silmek i\xE7in \xFCzerine T\u0131klay\u0131n' },
                 this.props.taskName
             );
         }
